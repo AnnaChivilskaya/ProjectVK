@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10B92EE27FD5F3500B0D673 /* PostNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92ED27FD5F3500B0D673 /* PostNews.swift */; };
+		A10B92F027FD69FE00B0D673 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92EF27FD69FE00B0D673 /* Session.swift */; };
+		A10B92F227FD6B3F00B0D673 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92F127FD6B3F00B0D673 /* Photos.swift */; };
+		A10B92F427FD6F1900B0D673 /* GroupsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92F327FD6F1900B0D673 /* GroupsService.swift */; };
+		A10B92F627FD6F3400B0D673 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92F527FD6F3400B0D673 /* Service.swift */; };
+		A10B92F827FD6F5600B0D673 /* SearchGroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92F727FD6F5600B0D673 /* SearchGroupService.swift */; };
+		A10B92FA27FD6F7B00B0D673 /* Realms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92F927FD6F7B00B0D673 /* Realms.swift */; };
+		A10B92FC27FD86C300B0D673 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92FB27FD86C300B0D673 /* FriendsTableViewController.swift */; };
+		A10B92FE27FD87F200B0D673 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92FD27FD87F200B0D673 /* FriendsViewController.swift */; };
+		A10B930027FD8B6100B0D673 /* NewGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B92FF27FD8B6100B0D673 /* NewGroupTableViewController.swift */; };
+		A10B930327FD8C4900B0D673 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A10B930227FD8C4900B0D673 /* Kingfisher */; };
+		A10B930527FD8E0700B0D673 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B930427FD8E0700B0D673 /* NavigationController.swift */; };
+		A116F0F327FDDE8600F61E69 /* UIImage+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116F0F227FDDE8600F61E69 /* UIImage+Load.swift */; };
+		A116F0F527FDE23300F61E69 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116F0F427FDE23300F61E69 /* LoadingAnimation.swift */; };
+		A116F0F727FDE30100F61E69 /* CloudAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116F0F627FDE30100F61E69 /* CloudAnimationView.swift */; };
+		A116F0FA27FE0DC600F61E69 /* Avatars.swift in Sources */ = {isa = PBXBuildFile; fileRef = A116F0F927FE0DC600F61E69 /* Avatars.swift */; };
+		A11D3C73280417F00038AB4F /* GroupsOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11D3C72280417F00038AB4F /* GroupsOperations.swift */; };
+		A148B19A27F45C26002B63AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A148B19927F45C26002B63AA /* LoginViewController.swift */; };
+		A154166827AAFABB001BD2AB /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = A154166727AAFABB001BD2AB /* SwiftyJSON */; };
+		A15DAC1527AC3A4600F4B914 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = A15DAC1427AC3A4600F4B914 /* SwiftKeychainWrapper */; };
+		A15DAC3B27AC402C00F4B914 /* vk.com.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15DAC3927AC402C00F4B914 /* vk.com.xcdatamodeld */; };
+		A15DAC4227AC505300F4B914 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A15DAC4127AC505300F4B914 /* Realm */; };
+		A15DAC4427AC505300F4B914 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A15DAC4327AC505300F4B914 /* RealmSwift */; };
+		A15DAC4B27AFDFC300F4B914 /* FriendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DAC4A27AFDFC300F4B914 /* FriendService.swift */; };
+		A166BC8827A7EF4700465CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A166BC8727A7EF4700465CDA /* AppDelegate.swift */; };
+		A166BC8A27A7EF4700465CDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A166BC8927A7EF4700465CDA /* SceneDelegate.swift */; };
+		A166BC8F27A7EF4700465CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A166BC8D27A7EF4700465CDA /* Main.storyboard */; };
+		A166BC9127A7EF4800465CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A166BC9027A7EF4800465CDA /* Assets.xcassets */; };
+		A166BC9427A7EF4800465CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A166BC9227A7EF4800465CDA /* LaunchScreen.storyboard */; };
+		A166BC9D27A7F24D00465CDA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A166BC9C27A7F24D00465CDA /* Alamofire */; };
+		A169BA2127F353FA00B85028 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169BA2027F353FA00B85028 /* NewsViewController.swift */; };
+		A1784EA127A827A500DCEA7E /* AuthVKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1784EA027A827A500DCEA7E /* AuthVKViewController.swift */; };
+		A1784EA727A83E1600DCEA7E /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1784EA627A83E1600DCEA7E /* Friends.swift */; };
+		A1784EA927A86BBC00DCEA7E /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1784EA827A86BBC00DCEA7E /* PhotoService.swift */; };
+		A1784EAD27A86E7A00DCEA7E /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1784EAC27A86E7A00DCEA7E /* GroupsTableViewController.swift */; };
+		A1784EAF27A86E8F00DCEA7E /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1784EAE27A86E8F00DCEA7E /* PhotosViewController.swift */; };
+		A1791B7C2805DE0000156C24 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1791B7B2805DE0000156C24 /* PromiseKit */; };
+		A1791B7E2806A3C200156C24 /* AsyncOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1791B7D2806A3C200156C24 /* AsyncOperations.swift */; };
+		A1791B872806BAFF00156C24 /* FriendsPromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1791B862806BAFF00156C24 /* FriendsPromiseKit.swift */; };
+		A183943127F76E770011DA66 /* ImageNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = A183943027F76E770011DA66 /* ImageNews.xib */; };
+		A183943327F76E930011DA66 /* imagenews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A183943227F76E930011DA66 /* imagenews.swift */; };
+		A18EE47827F435D00020E63E /* TextNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18EE47727F435D00020E63E /* TextNews.xib */; };
+		A18EE47A27F436150020E63E /* textnews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EE47927F436150020E63E /* textnews.swift */; };
+		A18EE48427F43A2F0020E63E /* topnews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EE48327F43A2F0020E63E /* topnews.swift */; };
+		A18EE48627F43AF40020E63E /* TopNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18EE48527F43AF40020E63E /* TopNews.xib */; };
+		A18EE48A27F43CAB0020E63E /* BottomNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18EE48927F43CAB0020E63E /* BottomNews.xib */; };
+		A18EE48C27F43D670020E63E /* bottomnews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18EE48B27F43D670020E63E /* bottomnews.swift */; };
+		A190254A27F4858900CBE513 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190254927F4858900CBE513 /* Groups.swift */; };
+		A1FD448727FC24A6000259A7 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD448627FC24A6000259A7 /* NewsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10B92ED27FD5F3500B0D673 /* PostNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNews.swift; sourceTree = "<group>"; };
+		A10B92EF27FD69FE00B0D673 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		A10B92F127FD6B3F00B0D673 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		A10B92F327FD6F1900B0D673 /* GroupsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsService.swift; sourceTree = "<group>"; };
+		A10B92F527FD6F3400B0D673 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A10B92F727FD6F5600B0D673 /* SearchGroupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGroupService.swift; sourceTree = "<group>"; };
+		A10B92F927FD6F7B00B0D673 /* Realms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realms.swift; sourceTree = "<group>"; };
+		A10B92FB27FD86C300B0D673 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		A10B92FD27FD87F200B0D673 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		A10B92FF27FD8B6100B0D673 /* NewGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupTableViewController.swift; sourceTree = "<group>"; };
+		A10B930427FD8E0700B0D673 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		A116F0F227FDDE8600F61E69 /* UIImage+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Load.swift"; sourceTree = "<group>"; };
+		A116F0F427FDE23300F61E69 /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
+		A116F0F627FDE30100F61E69 /* CloudAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAnimationView.swift; sourceTree = "<group>"; };
+		A116F0F927FE0DC600F61E69 /* Avatars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatars.swift; sourceTree = "<group>"; };
+		A11D3C72280417F00038AB4F /* GroupsOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsOperations.swift; sourceTree = "<group>"; };
+		A148B19927F45C26002B63AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A15DAC3A27AC402C00F4B914 /* vk.com.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vk.com.xcdatamodel; sourceTree = "<group>"; };
+		A15DAC4A27AFDFC300F4B914 /* FriendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendService.swift; sourceTree = "<group>"; };
+		A166BC8427A7EF4700465CDA /* vkontakte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkontakte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A166BC8727A7EF4700465CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A166BC8927A7EF4700465CDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A166BC8E27A7EF4700465CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A166BC9027A7EF4800465CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A166BC9327A7EF4800465CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A166BC9527A7EF4800465CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A169BA2027F353FA00B85028 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		A1784EA027A827A500DCEA7E /* AuthVKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVKViewController.swift; sourceTree = "<group>"; };
+		A1784EA627A83E1600DCEA7E /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		A1784EA827A86BBC00DCEA7E /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		A1784EAC27A86E7A00DCEA7E /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		A1784EAE27A86E8F00DCEA7E /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A1791B7D2806A3C200156C24 /* AsyncOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperations.swift; sourceTree = "<group>"; };
+		A1791B862806BAFF00156C24 /* FriendsPromiseKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPromiseKit.swift; sourceTree = "<group>"; };
+		A183943027F76E770011DA66 /* ImageNews.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageNews.xib; sourceTree = "<group>"; };
+		A183943227F76E930011DA66 /* imagenews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagenews.swift; sourceTree = "<group>"; };
+		A18EE47727F435D00020E63E /* TextNews.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextNews.xib; sourceTree = "<group>"; };
+		A18EE47927F436150020E63E /* textnews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textnews.swift; sourceTree = "<group>"; };
+		A18EE48327F43A2F0020E63E /* topnews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topnews.swift; sourceTree = "<group>"; };
+		A18EE48527F43AF40020E63E /* TopNews.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopNews.xib; sourceTree = "<group>"; };
+		A18EE48927F43CAB0020E63E /* BottomNews.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomNews.xib; sourceTree = "<group>"; };
+		A18EE48B27F43D670020E63E /* bottomnews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomnews.swift; sourceTree = "<group>"; };
+		A190254927F4858900CBE513 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		A1FD448627FC24A6000259A7 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A166BC8127A7EF4700465CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10B930327FD8C4900B0D673 /* Kingfisher in Frameworks */,
+				A154166827AAFABB001BD2AB /* SwiftyJSON in Frameworks */,
+				A166BC9D27A7F24D00465CDA /* Alamofire in Frameworks */,
+				A15DAC4227AC505300F4B914 /* Realm in Frameworks */,
+				A15DAC4427AC505300F4B914 /* RealmSwift in Frameworks */,
+				A1791B7C2805DE0000156C24 /* PromiseKit in Frameworks */,
+				A15DAC1527AC3A4600F4B914 /* SwiftKeychainWrapper in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A116F0F827FDEAE800F61E69 /* Animation+UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				A116F0F927FE0DC600F61E69 /* Avatars.swift */,
+				A116F0F627FDE30100F61E69 /* CloudAnimationView.swift */,
+				A116F0F227FDDE8600F61E69 /* UIImage+Load.swift */,
+				A116F0F427FDE23300F61E69 /* LoadingAnimation.swift */,
+			);
+			path = "Animation+UIImage";
+			sourceTree = "<group>";
+		};
+		A15BC42627B183A600B40CE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A10B92F527FD6F3400B0D673 /* Service.swift */,
+				A10B92F927FD6F7B00B0D673 /* Realms.swift */,
+				A10B92F327FD6F1900B0D673 /* GroupsService.swift */,
+				A15DAC4A27AFDFC300F4B914 /* FriendService.swift */,
+				A1784EA827A86BBC00DCEA7E /* PhotoService.swift */,
+				A1FD448627FC24A6000259A7 /* NewsService.swift */,
+				A10B92F727FD6F5600B0D673 /* SearchGroupService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A166BC7B27A7EF4700465CDA = {
+			isa = PBXGroup;
+			children = (
+				A166BC8627A7EF4700465CDA /* vkontakte */,
+				A166BC8527A7EF4700465CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A166BC8527A7EF4700465CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A166BC8427A7EF4700465CDA /* vkontakte.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A166BC8627A7EF4700465CDA /* vkontakte */ = {
+			isa = PBXGroup;
+			children = (
+				A166BC9527A7EF4800465CDA /* Info.plist */,
+				A15DAC3927AC402C00F4B914 /* vk.com.xcdatamodeld */,
+				A166BC8727A7EF4700465CDA /* AppDelegate.swift */,
+				A166BC8927A7EF4700465CDA /* SceneDelegate.swift */,
+				A166BC9027A7EF4800465CDA /* Assets.xcassets */,
+				A166BC8D27A7EF4700465CDA /* Main.storyboard */,
+				A166BC9227A7EF4800465CDA /* LaunchScreen.storyboard */,
+				A1784E9F27A8278100DCEA7E /* vk-api */,
+			);
+			path = vkontakte;
+			sourceTree = "<group>";
+		};
+		A169BA4D27F4141E00B85028 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1784EA627A83E1600DCEA7E /* Friends.swift */,
+				A10B92EF27FD69FE00B0D673 /* Session.swift */,
+				A10B92F127FD6B3F00B0D673 /* Photos.swift */,
+				A190254927F4858900CBE513 /* Groups.swift */,
+				A10B92ED27FD5F3500B0D673 /* PostNews.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A169BA4E27F4143300B85028 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A1791B7F2806A3D300156C24 /* Operations */,
+				A1791B882806BB0800156C24 /* PromiseKit */,
+				A148B19927F45C26002B63AA /* LoginViewController.swift */,
+				A1784EAE27A86E8F00DCEA7E /* PhotosViewController.swift */,
+				A10B92FB27FD86C300B0D673 /* FriendsTableViewController.swift */,
+				A169BA2027F353FA00B85028 /* NewsViewController.swift */,
+				A1784EA027A827A500DCEA7E /* AuthVKViewController.swift */,
+				A10B92FD27FD87F200B0D673 /* FriendsViewController.swift */,
+				A10B92FF27FD8B6100B0D673 /* NewGroupTableViewController.swift */,
+				A10B930427FD8E0700B0D673 /* NavigationController.swift */,
+				A18EE47427F431CD0020E63E /* Post */,
+				A116F0F827FDEAE800F61E69 /* Animation+UIImage */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A1784E9F27A8278100DCEA7E /* vk-api */ = {
+			isa = PBXGroup;
+			children = (
+				A15BC42627B183A600B40CE9 /* Services */,
+				A169BA4D27F4141E00B85028 /* Models */,
+				A169BA4E27F4143300B85028 /* ViewController */,
+			);
+			path = "vk-api";
+			sourceTree = "<group>";
+		};
+		A1791B7F2806A3D300156C24 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A11D3C72280417F00038AB4F /* GroupsOperations.swift */,
+				A1791B7D2806A3C200156C24 /* AsyncOperations.swift */,
+				A1784EAC27A86E7A00DCEA7E /* GroupsTableViewController.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		A1791B882806BB0800156C24 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1791B862806BAFF00156C24 /* FriendsPromiseKit.swift */,
+			);
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		A18EE47427F431CD0020E63E /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				A18EE48527F43AF40020E63E /* TopNews.xib */,
+				A18EE47727F435D00020E63E /* TextNews.xib */,
+				A183943027F76E770011DA66 /* ImageNews.xib */,
+				A18EE48927F43CAB0020E63E /* BottomNews.xib */,
+				A18EE48327F43A2F0020E63E /* topnews.swift */,
+				A18EE47927F436150020E63E /* textnews.swift */,
+				A183943227F76E930011DA66 /* imagenews.swift */,
+				A18EE48B27F43D670020E63E /* bottomnews.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A166BC8327A7EF4700465CDA /* vkontakte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A166BC9827A7EF4800465CDA /* Build configuration list for PBXNativeTarget "vkontakte" */;
+			buildPhases = (
+				A166BC8027A7EF4700465CDA /* Sources */,
+				A166BC8127A7EF4700465CDA /* Frameworks */,
+				A166BC8227A7EF4700465CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vkontakte;
+			packageProductDependencies = (
+				A166BC9C27A7F24D00465CDA /* Alamofire */,
+				A154166727AAFABB001BD2AB /* SwiftyJSON */,
+				A15DAC1427AC3A4600F4B914 /* SwiftKeychainWrapper */,
+				A15DAC4127AC505300F4B914 /* Realm */,
+				A15DAC4327AC505300F4B914 /* RealmSwift */,
+				A10B930227FD8C4900B0D673 /* Kingfisher */,
+				A1791B7B2805DE0000156C24 /* PromiseKit */,
+			);
+			productName = vkontakte;
+			productReference = A166BC8427A7EF4700465CDA /* vkontakte.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A166BC7C27A7EF4700465CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A166BC8327A7EF4700465CDA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = A166BC7F27A7EF4700465CDA /* Build configuration list for PBXProject "vkontakte" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A166BC7B27A7EF4700465CDA;
+			packageReferences = (
+				A166BC9B27A7F24D00465CDA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A154166627AAFABB001BD2AB /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				A15DAC1327AC3A4600F4B914 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				A15DAC4027AC505300F4B914 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				A10B930127FD8C4800B0D673 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A1791B7A2805DE0000156C24 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
+			productRefGroup = A166BC8527A7EF4700465CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A166BC8327A7EF4700465CDA /* vkontakte */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A166BC8227A7EF4700465CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18EE48627F43AF40020E63E /* TopNews.xib in Resources */,
+				A166BC9427A7EF4800465CDA /* LaunchScreen.storyboard in Resources */,
+				A166BC9127A7EF4800465CDA /* Assets.xcassets in Resources */,
+				A166BC8F27A7EF4700465CDA /* Main.storyboard in Resources */,
+				A18EE47827F435D00020E63E /* TextNews.xib in Resources */,
+				A183943127F76E770011DA66 /* ImageNews.xib in Resources */,
+				A18EE48A27F43CAB0020E63E /* BottomNews.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A166BC8027A7EF4700465CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A116F0F327FDDE8600F61E69 /* UIImage+Load.swift in Sources */,
+				A1FD448727FC24A6000259A7 /* NewsService.swift in Sources */,
+				A1784EA127A827A500DCEA7E /* AuthVKViewController.swift in Sources */,
+				A10B92FE27FD87F200B0D673 /* FriendsViewController.swift in Sources */,
+				A1791B7E2806A3C200156C24 /* AsyncOperations.swift in Sources */,
+				A10B930027FD8B6100B0D673 /* NewGroupTableViewController.swift in Sources */,
+				A10B92FC27FD86C300B0D673 /* FriendsTableViewController.swift in Sources */,
+				A10B930527FD8E0700B0D673 /* NavigationController.swift in Sources */,
+				A183943327F76E930011DA66 /* imagenews.swift in Sources */,
+				A10B92F427FD6F1900B0D673 /* GroupsService.swift in Sources */,
+				A15DAC3B27AC402C00F4B914 /* vk.com.xcdatamodeld in Sources */,
+				A10B92F227FD6B3F00B0D673 /* Photos.swift in Sources */,
+				A1784EA727A83E1600DCEA7E /* Friends.swift in Sources */,
+				A116F0F727FDE30100F61E69 /* CloudAnimationView.swift in Sources */,
+				A15DAC4B27AFDFC300F4B914 /* FriendService.swift in Sources */,
+				A18EE48C27F43D670020E63E /* bottomnews.swift in Sources */,
+				A1784EAF27A86E8F00DCEA7E /* PhotosViewController.swift in Sources */,
+				A116F0F527FDE23300F61E69 /* LoadingAnimation.swift in Sources */,
+				A1791B872806BAFF00156C24 /* FriendsPromiseKit.swift in Sources */,
+				A10B92EE27FD5F3500B0D673 /* PostNews.swift in Sources */,
+				A18EE47A27F436150020E63E /* textnews.swift in Sources */,
+				A148B19A27F45C26002B63AA /* LoginViewController.swift in Sources */,
+				A10B92F827FD6F5600B0D673 /* SearchGroupService.swift in Sources */,
+				A10B92F627FD6F3400B0D673 /* Service.swift in Sources */,
+				A10B92F027FD69FE00B0D673 /* Session.swift in Sources */,
+				A1784EA927A86BBC00DCEA7E /* PhotoService.swift in Sources */,
+				A18EE48427F43A2F0020E63E /* topnews.swift in Sources */,
+				A10B92FA27FD6F7B00B0D673 /* Realms.swift in Sources */,
+				A116F0FA27FE0DC600F61E69 /* Avatars.swift in Sources */,
+				A11D3C73280417F00038AB4F /* GroupsOperations.swift in Sources */,
+				A1784EAD27A86E7A00DCEA7E /* GroupsTableViewController.swift in Sources */,
+				A166BC8827A7EF4700465CDA /* AppDelegate.swift in Sources */,
+				A166BC8A27A7EF4700465CDA /* SceneDelegate.swift in Sources */,
+				A169BA2127F353FA00B85028 /* NewsViewController.swift in Sources */,
+				A190254A27F4858900CBE513 /* Groups.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A166BC8D27A7EF4700465CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A166BC8E27A7EF4700465CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A166BC9227A7EF4800465CDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A166BC9327A7EF4800465CDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A166BC9627A7EF4800465CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A166BC9727A7EF4800465CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A166BC9927A7EF4800465CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = vkontakte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lesson.vkontakte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A166BC9A27A7EF4800465CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = vkontakte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lesson.vkontakte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A166BC7F27A7EF4700465CDA /* Build configuration list for PBXProject "vkontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A166BC9627A7EF4800465CDA /* Debug */,
+				A166BC9727A7EF4800465CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A166BC9827A7EF4800465CDA /* Build configuration list for PBXNativeTarget "vkontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A166BC9927A7EF4800465CDA /* Debug */,
+				A166BC9A27A7EF4800465CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A10B930127FD8C4800B0D673 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		A154166627AAFABB001BD2AB /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		A15DAC1327AC3A4600F4B914 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		A15DAC4027AC505300F4B914 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.0;
+			};
+		};
+		A166BC9B27A7F24D00465CDA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+		A1791B7A2805DE0000156C24 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A10B930227FD8C4900B0D673 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A10B930127FD8C4800B0D673 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A154166727AAFABB001BD2AB /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A154166627AAFABB001BD2AB /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		A15DAC1427AC3A4600F4B914 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A15DAC1327AC3A4600F4B914 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+		A15DAC4127AC505300F4B914 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A15DAC4027AC505300F4B914 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A15DAC4327AC505300F4B914 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A15DAC4027AC505300F4B914 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		A166BC9C27A7F24D00465CDA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A166BC9B27A7F24D00465CDA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A1791B7B2805DE0000156C24 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1791B7A2805DE0000156C24 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A15DAC3927AC402C00F4B914 /* vk.com.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A15DAC3A27AC402C00F4B914 /* vk.com.xcdatamodel */,
+			);
+			currentVersion = A15DAC3A27AC402C00F4B914 /* vk.com.xcdatamodel */;
+			path = vk.com.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A166BC7C27A7EF4700465CDA /* Project object */;
+}
