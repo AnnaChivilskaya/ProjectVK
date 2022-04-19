@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Bottom" rowHeight="66" id="l7P-IL-L28" customClass="bottomnews" customModule="vkontakte" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="457" height="66"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l7P-IL-L28" id="3UF-yF-MAk" customClass="bottomnews" customModule="vkontakte" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="457" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTa-wC-fzQ">
+                        <rect key="frame" x="60" y="18" width="116" height="31"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="square.and.pencil" catalog="system" title="Comments"/>
+                        <connections>
+                            <action selector="PreessedComments:" destination="l7P-IL-L28" eventType="touchUpInside" id="hQg-UC-fZM"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ho8-5e-bOq">
+                        <rect key="frame" x="174" y="18" width="92" height="31"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.forward" catalog="system" title="Repost"/>
+                        <connections>
+                            <action selector="PressedRepost:" destination="l7P-IL-L28" eventType="touchUpInside" id="M18-dn-e9x"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fo-Fd-9cd">
+                        <rect key="frame" x="0.0" y="18" width="72" height="31"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system" title="Like"/>
+                        <connections>
+                            <action selector="PressedLike:" destination="l7P-IL-L28" eventType="touchUpInside" id="ms6-Kc-S1Q"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4g4-SG-bl3">
+                        <rect key="frame" x="373" y="18" width="84" height="31"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="eye.fill" catalog="system" title="View"/>
+                        <connections>
+                            <action selector="Viewtf:" destination="l7P-IL-L28" eventType="touchUpInside" id="JpK-cc-Fa6"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ho8-5e-bOq" firstAttribute="leading" secondItem="1fo-Fd-9cd" secondAttribute="trailing" constant="102" id="33b-iD-Qk4"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="leading" secondItem="mTa-wC-fzQ" secondAttribute="trailing" constant="197" id="3C9-SH-lof"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="4XH-cb-CCF"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="leading" secondItem="Ho8-5e-bOq" secondAttribute="trailing" constant="107" id="4f6-sw-N1p"/>
+                    <constraint firstAttribute="bottom" secondItem="mTa-wC-fzQ" secondAttribute="bottom" constant="17" id="5DI-lj-Pge"/>
+                    <constraint firstAttribute="trailing" secondItem="4g4-SG-bl3" secondAttribute="trailing" id="5ci-bV-nEF"/>
+                    <constraint firstAttribute="bottom" secondItem="4g4-SG-bl3" secondAttribute="bottom" constant="17" id="5r3-jH-wnE"/>
+                    <constraint firstItem="Ho8-5e-bOq" firstAttribute="leading" secondItem="1fo-Fd-9cd" secondAttribute="trailing" constant="102" id="73a-5Y-DHw"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="leading" secondItem="Ho8-5e-bOq" secondAttribute="trailing" constant="107" id="9jX-MH-1pp"/>
+                    <constraint firstItem="Ho8-5e-bOq" firstAttribute="leading" secondItem="1fo-Fd-9cd" secondAttribute="trailing" constant="102" id="Bvo-OD-JKN"/>
+                    <constraint firstAttribute="bottom" secondItem="4g4-SG-bl3" secondAttribute="bottom" constant="17" id="Bxa-2Y-lLv"/>
+                    <constraint firstItem="mTa-wC-fzQ" firstAttribute="leading" secondItem="3UF-yF-MAk" secondAttribute="leading" constant="60" id="ETa-es-Kk6"/>
+                    <constraint firstItem="1fo-Fd-9cd" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="Fzt-CR-1eT"/>
+                    <constraint firstItem="mTa-wC-fzQ" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="GjD-h4-RNQ"/>
+                    <constraint firstAttribute="bottom" secondItem="mTa-wC-fzQ" secondAttribute="bottom" constant="17" id="QxH-cJ-RYZ"/>
+                    <constraint firstItem="1fo-Fd-9cd" firstAttribute="leading" secondItem="3UF-yF-MAk" secondAttribute="leading" id="RQY-uD-nAQ"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="leading" secondItem="Ho8-5e-bOq" secondAttribute="trailing" constant="107" id="UMf-nA-zl1"/>
+                    <constraint firstItem="Ho8-5e-bOq" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="dUe-ww-GnB"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="esr-q9-gJS"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="leading" secondItem="Ho8-5e-bOq" secondAttribute="trailing" constant="107" id="fWi-vj-ZU8"/>
+                    <constraint firstAttribute="bottom" secondItem="Ho8-5e-bOq" secondAttribute="bottom" constant="17" id="iNa-OY-UqG"/>
+                    <constraint firstAttribute="bottom" secondItem="Ho8-5e-bOq" secondAttribute="bottom" constant="17" id="lNe-aH-MAi"/>
+                    <constraint firstAttribute="bottom" secondItem="1fo-Fd-9cd" secondAttribute="bottom" constant="17" id="ltk-wH-l7G"/>
+                    <constraint firstItem="1fo-Fd-9cd" firstAttribute="leading" secondItem="3UF-yF-MAk" secondAttribute="leading" id="ngB-Gz-fGq"/>
+                    <constraint firstAttribute="bottom" secondItem="1fo-Fd-9cd" secondAttribute="bottom" constant="17" id="q4e-rx-xDA"/>
+                    <constraint firstItem="mTa-wC-fzQ" firstAttribute="leading" secondItem="3UF-yF-MAk" secondAttribute="leading" constant="60" id="qAp-Qy-ldg"/>
+                    <constraint firstItem="Ho8-5e-bOq" firstAttribute="leading" secondItem="1fo-Fd-9cd" secondAttribute="trailing" constant="102" id="tbg-8B-Qfu"/>
+                    <constraint firstAttribute="trailing" secondItem="4g4-SG-bl3" secondAttribute="trailing" id="wbP-B1-Fep"/>
+                    <constraint firstItem="Ho8-5e-bOq" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="wcV-b4-atm"/>
+                    <constraint firstItem="4g4-SG-bl3" firstAttribute="leading" secondItem="mTa-wC-fzQ" secondAttribute="trailing" constant="197" id="x9R-Ii-CFO"/>
+                    <constraint firstItem="1fo-Fd-9cd" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="xm1-Zs-Nyh"/>
+                    <constraint firstItem="mTa-wC-fzQ" firstAttribute="top" secondItem="3UF-yF-MAk" secondAttribute="top" constant="18" id="zzf-Ki-ATf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Commentsbutton" destination="mTa-wC-fzQ" id="1rX-Ya-FCg"/>
+                <outlet property="LikeButton" destination="1fo-Fd-9cd" id="Vuf-hU-dpQ"/>
+                <outlet property="Repostbutton" destination="Ho8-5e-bOq" id="AFB-Dr-PGR"/>
+                <outlet property="ViewButton" destination="4g4-SG-bl3" id="1bU-WE-b75"/>
+            </connections>
+            <point key="canvasLocation" x="323.91304347826087" y="-42.857142857142854"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrowshape.turn.up.forward" catalog="system" width="128" height="106"/>
+        <image name="eye.fill" catalog="system" width="128" height="78"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
+    </resources>
+</document>
